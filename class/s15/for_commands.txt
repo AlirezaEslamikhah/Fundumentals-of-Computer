@@ -1,0 +1,50 @@
+for /f %i in (teams_ids.txt) do @netstat -na -o | findstr Teams %i
+for /f %i in (teams_ids.txt) do netstat -na -o | findstr Teams %i
+for /f %i in (teams_ids.txt) do netstat -na -o | findstr Teams %i>teams.txt
+for /f %i in (teams_ids.txt) do @netstat -na -o | findstr Teams %i>teams.txt
+type teams.txt
+for /f %i in (teams_ids.txt) do netstat -na -o | findstr Teams %i>>teams.txt
+type teams.txt
+dir
+dir > a.txt
+type a.txt
+echo ali
+echo ali > a.txtdir > a.txt
+type a.txt
+echo ali
+echo ali > a.txtdir > a.txt
+type a.txt
+echo ali
+echo ali > a.txt
+dir > a.txt
+type a.txt
+echo ali
+echo ali > a.txt
+type a.txt
+echo ali >> a.txt
+for /f %i in (team_ids.txt) do netstat -na -o | findstr %i >> teams.txt
+for /f %i in (team_ids.txt) do netstat -na -o | findstr %i
+for /f %i in (team_ids.txt) do netstat -na -o | findstr %i >> teams.txt
+for /f %i in (team_ids.txt) do netstat -na -o | findstr Teams  %i 
+for /f %i in (teams_ids.txt) do netstat -na -o | findstr Teams  %i 
+for /f %i in (teams_ids.txt) do @netstat -na -o | findstr Teams  %i 
+for /f %i in (teams_ids.txt) do netstat -na -o | findstr Teams  %i 
+for /f %i in (teams_ids.txt) do  ech netstat -na -o | findstr Teams  %i 
+for /f %i in (teams_ids.txt) do  echo netstat -na -o | findstr Teams  %i 
+for /f %i in (teams_ids.txt) do  @echo netstat -na -o | findstr Teams  %i 
+for /f %i in (teams_ids.txt) do   netstat -na -o | findstr %i 
+for /f %i in (teams_ids.txt) do   @netstat -na -o | findstr %i 
+for /f %i in (teams_ids.txt) do @netstat -na -o | findstr %i 
+for /f %i in (teams_ids.txt) do netstat -na -o | findstr %i 
+for /f %i in (teams_ids.txt) do netstat -na -o | findstr %i >teams.txt
+for /f %i in (teams_ids.txt) do netstat -na -o | findstr %i >>teams.txt
+for /f %i in (teams_ids.txt) do @ ( echo netstat -na -o | findstr %i )
+for /f %i in (teams_ids.txt) do  echo netstat -na -o | findstr %i 
+for /f %i in (teams_ids.txt) do   netstat -na -o | findstr %i 
+for /f %i in (teams_ids.txt) do   netstat -na -o | findstr %i > teams.txt
+for /f %i in (teams_ids.txt) do   netstat -na -o | findstr %i >> teams.txt
+type teams.txt
+doskey
+doskey/history
+doskey/history>commands.txt
+doskey/history>for_commands.txt
